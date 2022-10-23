@@ -4,8 +4,8 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: instance
-    image: centos:centos8
+  - name: cent_7
+    image: centos:7
     pre_build_image: true
 provisioner:
   name: ansible
