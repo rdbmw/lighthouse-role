@@ -5,8 +5,7 @@ driver:
   name: docker
 platforms:
   - name: instance
-    image: quay.io/centos/centos:stream8
-#    privileged: True
+    image: centos:centos8
     pre_build_image: true
 provisioner:
   name: ansible
