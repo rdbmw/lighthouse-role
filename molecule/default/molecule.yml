@@ -6,8 +6,8 @@ driver:
 platforms:
   - name: instance
     image: quay.io/centos/centos:stream8
-    privileged: True
-#    pre_build_image: true
+#    privileged: True
+    pre_build_image: true
 provisioner:
   name: ansible
 verifier:
