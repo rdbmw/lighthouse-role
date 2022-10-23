@@ -6,7 +6,6 @@ driver:
 platforms:
   - name: cent_7
     image: centos:7
-    pre_build_image: true
 provisioner:
   name: ansible
 verifier:
